@@ -1,0 +1,515 @@
+@font-face {
+  font-family: 'spacethink';
+  src: url(Assets/fonts/SPACETHINK.ttf);
+}
+
+@font-face {
+  font-family: 'spacethink rough';
+  src: url(Assets/fonts/SPACETHINK\ ROUGH.ttf);
+}
+
+@font-face {
+  font-family: 'division';
+  src: url(Assets/fonts/division.otf);
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.main{
+  width: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(Assets/1homepage.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+  
+  
+}
+
+.navbar{
+width: 1200px;
+height: 75px;
+
+
+}
+
+
+.icon{
+  width: 200px;
+  float: left;
+  height: 70px;
+
+}
+
+
+.logo{
+  color: rgb(255, 255, 255);
+  font-size: 65px;
+  font-family: 'spacethink rough';
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+  white-space: nowrap;
+
+}
+
+.menu{
+  width: 400px;
+  float: left;
+  height: 70px;
+  white-space: nowrap;
+  font-size: 20px;
+}
+
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+}
+
+ul li{
+  list-style: none;
+  margin-left: 130px;
+  margin-top: 27px;
+  font-size: 25px;
+
+}
+
+ul li a{
+  text-decoration: none;
+  color: yellow;
+  font-family: division;
+  transition: 0.2s ease-in-out; 
+}
+
+ul li a:hover{
+  color: red;
+}
+
+.logoimage {
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-top: 20px;
+  float: right;
+}
+
+html, body { 
+  margin: 0px; 
+  padding: 0px; 
+  border: none; 
+  overflow-x: hidden;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  padding: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  margin-top: 10px;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: yellow;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+
+
+.content{
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: rgb(255, 255, 255);
+  position: relative;
+font-family: 'spacethink';
+  text-align: center;
+  margin-top: 10%;
+  font-size: 50px;
+}
+.paragraph{
+  padding-left: 20px;
+  padding-bottom: 25px;
+  font-family: division;
+  letter-spacing: 1.2px;
+  line-height: 50px;
+}
+
+.main2{
+  width: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(Assets/keyboard.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+  
+  
+}
+
+
+.apply {
+  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.apply:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+  .apply {
+    padding: 0 2.6rem;
+  }
+}
+
+.main3{
+  width: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(Assets/apply.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+}
+
+.main4{
+  width: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(Assets/csgo-quiz-characters.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+}
+
+.main5{
+  width: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(Assets/games.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+}
+
+.main6{
+  width: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(Assets/Rocket-league-main-image.png);
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+}
+
+.main7{
+  width: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(Assets/FIFA-23.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+}
+
+.main8{
+  width: 100%;
+  background: linear-gradient(to bottom, #424242, #aa1daa) 
+  
+}
+
+footer{
+  background-color: #212121;
+  text-align: center;
+  padding: 10px;
+  
+}
+
+.copyright{
+  font-family: "division";
+  font-size: 20px;
+  color: grey;
+}
+
+
+.links{
+  list-style: none;
+  font-family: "division";
+  border-radius: 15px;
+  text-align: center;
+}
+
+
+
+.button-1 {
+  background-color: #1f1fef;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "division", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #4a47ff;
+}
+
+.button-2 {
+  background-color: #00e1ff;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "division", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-2:hover,
+.button-2:focus {
+  background-color: #4dd2fe;
+}
+
+.button-3 {
+  background-color: #ff38db;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "division", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-3:hover,
+.button-3:focus {
+  background-color: #ff7ae7;
+}
+
+.content-tips{
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: rgb(255, 255, 255);
+  position: relative;
+font-family: division;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 20px;
+}
+
+.paragraph-tips{
+  padding-left: 20px;
+  padding-bottom: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1.2px;
+  line-height: 50px;
+}
+
+.paragraph-csgo{
+  padding-left: 20px;
+  padding-bottom: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1.2px;
+  line-height: 50px;
+}
+
+.content-csgo{
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: rgb(255, 255, 255);
+  position: relative;
+font-family: division;
+  text-align: center;
+  margin-top: -10px;
+  font-size: 20px;
+}
+
+.paragraph-rocket{
+  padding-left: 20px;
+  padding-bottom: 25px;
+  font-family: division;
+  letter-spacing: 1.2px;
+  line-height: 50px;
+}
+
+.content-rocket{
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: rgb(255, 255, 255);
+  position: relative;
+font-family: division;
+  text-align: center;
+  margin-top: -10px;
+  font-size: 30px;
+}
+
+.paragraph-fifa{
+  padding-left: 20px;
+  padding-bottom: 25px;
+  font-family: division;
+  letter-spacing: 1.2px;
+  line-height: 50px;
+}
+
+.content-fifa{
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: rgb(255, 255, 255);
+  position: relative;
+font-family: division;
+  text-align: center;
+  margin-top: -10px;
+  font-size: 20px;
+}
+
+.form{ 
+    width: 250px;
+    height: 380px;
+    background: linear-gradient (to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+}
+
+.paragraph_events{
+  font-family: division;
+  margin-top: -100px;
+}
+
+.grow { 
+transition: all .2s ease-in-out; 
+  width: 30%;
+}
+
+.grow:hover { 
+transform: scale(1.1); 
+}
+
+.container {
+  font-family: division;
+  margin: auto;
+  width: 500px;
+  max-width: 90%;
+  display: block;
+}
+
+.container form{
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  background: linear-gradient(to right, #455eb5, #aa31aa) ;
+  border-radius: 4px;
+  box-shadow: 0 8px 16px rgba(0,0,0,.3);
+}
+
+.container form .form-control{
+  width: 100%;
+  height: 40px;
+  background: white;
+  border-radius: 4px;
+  border: 1px solid silver;
+  margin: 10px 0 18px 0;
+  padding: 0 10px;
+}
+
+.container form .btn{
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 34px;
+  border: none;
+  outline: none;
+  background: red;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: white;
+  transition: all .2s ease-in-out;
+  border-radius: 20px;
+}
